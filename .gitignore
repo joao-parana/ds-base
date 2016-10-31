@@ -1,0 +1,5 @@
+.ssh/cert*
+.Rproj.user
+cluster.sh
+docker-compose.yml
+start-wrapper.sh

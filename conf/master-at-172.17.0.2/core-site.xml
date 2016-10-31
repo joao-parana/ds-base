@@ -1,0 +1,8 @@
+<configuration>
+  <property>
+    <name>fs.defaultFS</name>
+    <!-- O contêiner Master deve entrar primeiro para obter o endereço 172.17.0.2 -->
+    <!-- Pode ser também o endereço 192.168.169.2 se estiver configurado dessa forma -->
+    <value>hdfs://172.17.0.2:9000</value>
+  </property>
+</configuration>
