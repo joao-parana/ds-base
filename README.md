@@ -31,7 +31,7 @@ cp etc/hadoop/*.xml ../master
 bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.3.jar grep ../master /tmp/output 'dfs[a-z.]+'  2> /dev/null
 cat /tmp/output/*
 ```
-Esta configuração pode ser vista [aqui](Standalone-Mode)
+Esta configuração pode ser vista em [conf/Standalone-Mode](conf/Standalone-Mode)
 
 ### single-node no 'Pseudo-Distributed Mode'
 
